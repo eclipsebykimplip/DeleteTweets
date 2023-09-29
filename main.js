@@ -1,4 +1,4 @@
-var authorization = "Bearer ***"; // replace by authorization value
+var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
 var client_tid = "***"; // replace by X-Client-Transaction-Id value
 var client_uuid = "***"; // replace by X-Client-Uuid value
@@ -13,7 +13,7 @@ var stop_signal = undefined
 
 var delete_options = {
 	/*  unretweet: seems obvious, but it unretweet if set to true */
-	"unretweet":false,
+	"unretweet":true,
 	/* delete_message_with_url_only: self explanatory, but will delete tweets that contain links */
 	"delete_message_with_url_only":false,
 	/*
