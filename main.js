@@ -1,4 +1,4 @@
-var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"; // replace by authorization value
+var authorization = "Bearer AAAAAAAAAAAAAAA; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
 var client_tid = "***"; // replace by X-Client-Transaction-Id value
 var client_uuid = "***"; // replace by X-Client-Uuid value
